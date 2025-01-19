@@ -1,4 +1,16 @@
 spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        format_sql: true
+        use_sql_comments: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/CompanyDB
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
   mvc:
     view:
       prefix: /WEB-INF/views/

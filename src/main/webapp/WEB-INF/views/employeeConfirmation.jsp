@@ -9,5 +9,6 @@
     <p>Name: ${employee.name}</p>
     <p>Designation: ${employee.designation}</p>
     <p>Department: ${employee.department}</p>
+    <p>Email: ${employee.email}</p>
 </body>
 </html>
