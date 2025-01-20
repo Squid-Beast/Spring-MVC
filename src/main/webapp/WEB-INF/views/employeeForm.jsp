@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Employee Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/resources/style.css">
 </head>
 <body>
     <form action="/employee/addEmployee" method="post">
