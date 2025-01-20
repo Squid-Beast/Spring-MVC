@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Employee Form</title>
-    <link rel="stylesheet" href="/resources/style.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
 </head>
 <body>
     <form action="/employee/addEmployee" method="post">
@@ -21,7 +21,7 @@
         <input type="email" id="email" name="email" value="${employee.email}" required /><br />
 
         <button type="submit">Save</button>
-        <a href="/employees">Cancel</a>
+        <a href="/employee/addEmployee">Cancel</a>
     </form>
 </body>
 </html>

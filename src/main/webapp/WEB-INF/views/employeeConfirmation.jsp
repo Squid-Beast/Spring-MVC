@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Employee Confirmation</title>
-    <link rel="stylesheet" href="/resources/style1.css">
+    <link rel="stylesheet" href="/resources/css/style1.css">
 </head>
 <body>
     <div class="container">
